@@ -9,7 +9,7 @@ Este projeto consiste na criação de uma página completa de vagas de emprego p
 ### Dia 1: Navbar
 No primeiro dia, foi feito o desenvolvimento do Navbar, incluindo o logo, menu com páginas e dois botões no canto direito.
 
-### Dia 2: Cabeçalho
+### Dia 2: Header
 O segundo dia foi dedicado ao cabeçalho da landing page no menu.
 
 ### Dia 3: Métricas e Resultados
@@ -24,7 +24,7 @@ Conclusão da seção "vagas" com a adição de vagas específicas para "Design"
 ### Dia 6: Seção de Depoimentos
 Desenvolvimento da seção "depoimentos" com texto introdutório, título, imagem de colaboradora, nome e cargo na empresa.
 
-### Dia 7: Rodapé da Página
+### Dia 7: Footer
 Desenvolvimento do rodapé, incluindo título, pequeno texto, formulário com campo de e-mail e botão. Adicionalmente, uma declaração de copyright foi inserida.
 
 
