@@ -1,0 +1,327 @@
+.logo {
+    width: 30%; 
+    max-width: 27px; 
+    height: auto; 
+  }
+ 
+
+  .texto-logo {
+    width: 30%; 
+    max-width: 113px; 
+    height: auto;
+    margin-left: 5%; 
+    font-family: 'Inter', sans-serif;
+    color: #3A404E;
+    font-size: 18px;
+  }
+
+  nav {
+    width: 100%; 
+    max-width: 100%; 
+    height: auto;    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5% 6% 1% 6%; 
+  }  
+
+  header{
+    width: 100%; 
+    max-width: 100%; 
+    height: auto ;
+    max-height: 407px;
+    margin-bottom: 4%;
+  }
+
+.flexbox-item
+{
+display: flex; 
+align-items: center;
+flex-grow: 1
+}
+
+.item1 {
+    width: 10%;
+    max-width: 148px;
+    height: auto; 
+    gap: 2%;  
+    margin-right: auto;   
+  }
+
+  .item2 {   
+    width: 10%;
+    max-width: 362 px;
+    height: auto; 
+    gap: 2%;   
+    margin-right: auto; 
+  }
+
+  .item3 {
+    width: 20%;
+    max-width: 500 px;
+    height: auto;   
+    margin-right: auto;   
+  }
+
+  .item4 {
+    width: 10%;
+    max-width: 207 px;
+    height: auto;   
+    margin-right: auto;   
+  }
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6%;
+   
+}
+
+.flexbox-item.item-2 button {
+    padding: 10px; /* Adapte conforme necessário */
+    margin-right: 10px; /* Adapte conforme necessário para adicionar espaçamento entre os botões */
+    border: 0px; 
+    background-color: #ffffff; 
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    color: #3A404E;
+    font-size: 16px;
+    
+  }
+
+  .flexbox-item.item-4 #Entrar { 
+    padding: 10px; /* Adapte conforme necessário */
+    margin-right: 10px; /* Adapte conforme necessário para adicionar espaçamento entre os botões */
+    border: 0px; 
+    background-color: #ffffff; 
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    color: #3A404E;
+    font-size: 16px;
+  }
+  
+  .flexbox-item.item-4 #Cadastrar {    
+    padding: 12px; /* Adapte conforme necessário */
+    background-color: #8E2424;
+    border: 0px; 
+    cursor: pointer;
+    color: white; /* Cor do texto branca, por exemplo */
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;    
+    border-radius: 8px;
+  }
+
+  .text-header{
+    max-width: 792px;
+    max-height: 83px;
+  }
+
+  #sec1{
+    width: 100%; 
+    max-width: 1440px;
+    height: auto;
+    display: flex;
+    gap: 64px;       
+    padding: 0% 0% 8% 5%; 
+  }
+
+  .container-metrics{
+    width: 100%; 
+    max-width: 1280px;
+    height: auto;  
+    gap: 64px;
+    display: flex;   
+    padding: 0% 0% 8% 5%; 
+    
+  }
+
+  .metric{
+    width: 280px;
+    height: 168px;
+    gap: 20px;
+  }
+
+  #talentos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    max-width: 1440;  
+    height: auto; 
+    max-height: 602px;  
+  }
+
+  #vagas{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 100%; 
+    max-width: 1280px;
+    height: auto;     
+    max-height: 940px;
+    margin: 0 auto;
+    margin-bottom: 4%;
+  }
+
+  .vagas-container{
+    width: 100%; 
+    max-width: 1280px;
+    height: auto;     
+    max-height: 358px;
+    padding: 0 32px 0 32px;
+    gap: 64px;
+    margin-bottom: 30px;
+    
+  }
+
+  .vagas-content{    
+    width: 768px;
+    height: 358px;
+    gap: 32px;
+    margin: 0 auto;
+  }
+
+  .vagas-itens{
+    width: 768px;
+    height: 296px;
+    gap: 24px;
+    margin: 0 auto;
+  }
+
+  .vaga{
+    width: 768px;
+    height: 70px;
+    border: 1px solid #EAECF0;
+    border-radius: 16px; 
+    margin-bottom: 20px;
+    padding: 24px 24px 28px 24px;
+    gap: 24px;
+  }
+
+  .titulo-vaga{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px; 
+    line-height: 28px; 
+    color: #101828;
+    
+  }
+
+  .informacoes-vaga{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px; 
+    line-height: 24px; 
+    color: #667085;
+    margin-top: 25px;
+  }
+
+  #depoimentos{    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1216px;
+  height: auto;
+  max-height: 404px;
+  margin: 0 auto;
+  background-color: #f3f5f7;
+  border-radius: 16px;
+  gap: 32px;
+  padding: 64px;
+  margin-top: 200px;
+  margin-bottom: 80px;
+  }
+
+  .text-depo{
+    text-align: center;
+    
+  }
+
+  .avatar-depo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1088px;
+  height: auto;
+  max-height: 120px;
+  margin: 0 auto;
+  }
+
+  footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;  
+  height: auto;
+  max-height: 100px;
+  padding: 96px 0px 96px 0px;
+  gap: 32px;
+  background-color: #edf2f8;
+
+  }
+
+  .formulario{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 832px;
+  height: 182px; 
+  padding: 0px 32px 0px 32px;
+  gap: 32px;
+  }
+
+  .email{
+  display: flex;  
+  justify-content: center;
+  width: 492px;
+  height: 48px;   
+  gap: 16px;
+  width: 80%;
+  
+  
+  }
+
+  #submit {    
+    padding: 12px;
+    background-color: #8E2424;
+    border: 0px;
+    cursor: pointer;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    border-radius: 8px;
+    max-width: 116px;
+    text-align: center;
+   
+  }
+
+  .formulario input {
+    display: flex;
+    padding: 12px 14px 12px 16px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    display: flex;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;        
+}
+
+.envio{
+  width: 492px;
+  height: auto;    
+  display: flex;
+  align-items: center;
+  
+}
+
